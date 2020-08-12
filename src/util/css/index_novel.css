@@ -1,0 +1,57 @@
+.novel_row{
+  margin-bottom: 50px;
+}
+.novel_col{
+  width: 50%;
+  height: 126px;
+}
+.novel_img{
+  float: left;
+}
+.novel_img img{
+  height: 126px;
+  width: 95px;
+}
+.novel_info{
+  font-family: 宋体;
+  margin-left: 105px;
+  position: absolute;
+  position:absolute;
+}
+.novel_info div{
+  height: 50px;
+  overflow: hidden
+}
+.novel_name{
+  line-height: 2;
+  font-size: 16px;
+  color: #333;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.novel_details{
+  color: #666;
+  font-size: 13px;
+  letter-spacing: .93px;
+}
+
+.novel_down{
+  position: relative;
+  top: 22px;
+}
+
+.novel_author{
+  letter-spacing: 1px;
+  color: #999;
+  white-space: nowrap;
+  font-size: 13px;
+}
+.novel_type{
+  position: relative;
+  left: 130px;
+  color: #999;
+  border: 1px solid #e6e6e6;
+  font-size: 12px;
+  padding: 0px 5px;
+  border-radius: 2px;
+}

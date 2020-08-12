@@ -6,6 +6,9 @@ import router from './router'
 import $ from 'jquery'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.min'
+import '../static/layui/css/layui.css'
+import './util/css/index_novel.css'
+
 
 
 

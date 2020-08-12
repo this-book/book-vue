@@ -13,10 +13,10 @@ module.exports = {
     proxyTable: {
       // 接口 api
       '/api': {
-        target: 'http://localhost:8001',
+        target: 'http://localhost:8080',
         changeOrigin: true,
         pathRewrite: {
-          '^/api': 'http://localhost:8001'
+          '^/api': 'http://localhost:8080'
         }
       }
     },
@@ -52,7 +52,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: './',
 
     /**
      * Source Maps
