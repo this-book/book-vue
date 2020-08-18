@@ -12,6 +12,7 @@ export default new Router({
       name: 'helloIBOOK',
       component: helloIBOOK
     },
+    /*章节路由*/
     {
       path: '/chapter/getChapters',
       name: 'getChapters',

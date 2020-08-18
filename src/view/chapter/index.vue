@@ -16,10 +16,8 @@
 
 
     created() {
+      /*获取传来的小说ID*/
       this.novelID = this.$route.params.novelID
-
-
-
     }
   }
 </script>
