@@ -1,7 +1,9 @@
 .novel_row{
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 .novel_col{
+
   width: 50%;
   height: 126px;
 }
@@ -20,7 +22,7 @@
 }
 .novel_info div{
   height: 50px;
-  overflow: hidden
+  overflow: hidden;
 }
 .novel_name{
   line-height: 2;
@@ -47,8 +49,8 @@
   font-size: 13px;
 }
 .novel_type{
+  float: right;
   position: relative;
-  left: 130px;
   color: #999;
   border: 1px solid #e6e6e6;
   font-size: 12px;
