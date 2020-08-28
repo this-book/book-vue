@@ -29,6 +29,7 @@
                       <dd><a>7天排行</a></dd>
                       <dd><a>一天排行</a></dd>
                       <dd><a>小时排行</a></dd>
+                      <dd><a>小时排行</a></dd>
                     </dl>
         </li>
         <li class="layui-nav-item"><a>完结</a></li>
