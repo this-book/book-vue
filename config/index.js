@@ -11,14 +11,14 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      /*// 接口 api
+      // 接口 api
       '/api': {
-        target: 'http://localhost:8080',
+        target: 'https://music.sounm.com/',
         changeOrigin: true,
         pathRewrite: {
-          '^/api': 'http://localhost:8080'
+          '^/api': 'https://music.sounm.com/'
         }
-      }*/
+      }
     },
 
     // Various Dev Server settings
